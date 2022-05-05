@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<machine>
+    <model name="DEX" serial_number="1">
+        <dimensions>
+        </dimensions>
+    </model>
+    <messages>
+        <pub>
+            <topic payload_type="protobuf">Model</topic>
+            <topic payload_type="protobuf">GnssLocation</topic>
+            <topic payload_type="protobuf">Diagnostic</topic>
+            <topic payload_type="protobuf">ArmAngles</topic>
+        </pub>
+        <sub>
+            <topic payload_type="protobuf">Model</topic>
+            <topic payload_type="protobuf">GnssLocation</topic>
+            <topic payload_type="protobuf">Diagnostic</topic>
+            <topic payload_type="protobuf">TruckState</topic>
+        </sub>
+    </messages>
+</machine>

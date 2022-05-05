@@ -1,0 +1,6 @@
+[submodule "Protos_Example"]
+	path = Protos_Example
+	url = git@github.deere.com:kr63454/Protos_Example.git
+[submodule "ProtosExample"]
+	path = ProtosExample
+	url = git@github.com:riggskevinp/ProtosExample.git

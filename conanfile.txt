@@ -1,0 +1,6 @@
+[requires]
+protobuf/3.17.1
+pugixml/1.12.1
+
+[generators]
+cmake

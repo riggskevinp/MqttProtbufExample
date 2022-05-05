@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<machine>
+    <model name="ADT" serial_number="995123">
+        <dimensions>
+            <starfire2Art x="1" y="0" z="-2"></starfire2Art>
+            <Art2TopRight x="1" y="2" z="5"></Art2TopRight>
+        </dimensions>
+    </model>
+    <messages>
+        <pub>
+            <topic payload_type="protobuf">Model</topic>
+            <topic payload_type="protobuf">GnssLocation</topic>
+            <topic payload_type="protobuf">Diagnostic</topic>
+            <topic payload_type="protobuf">TruckState</topic>
+            <topic payload_type="protobuf">ArmAngles</topic>
+        </pub>
+        <sub>
+            <topic payload_type="protobuf">Model</topic>
+            <topic payload_type="protobuf">GnssLocation</topic>
+            <topic payload_type="protobuf">Diagnostic</topic>
+            <topic payload_type="protobuf">TruckState</topic>
+            <topic payload_type="protobuf">ArmAngles</topic>
+        </sub>
+    </messages>
+</machine>

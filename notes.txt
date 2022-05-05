@@ -1,0 +1,24 @@
+MQTT Topics
+
+
+Structure
+
+/{OrgID}/{WorkSight}/{Session}/{MachineSerial}/{topics}
+/{OrgID}/{WorkSight}/{Session}/+/{topics}
+/{OrgID}/{WorkSight}/{Session}/+/#
+
+/model/dimensions
+/model/model
+/diagnostics/
+/location/GNSS
+
+
+
+
+Protobuf, serialization
+Definitions:
+
+Dimensions
+Model
+GnssLocation
+Diagnostic
